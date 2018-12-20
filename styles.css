@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+
+html { 
+    background-image: url(DSC_0008.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+  p{
+    background-color: rgba(207, 163, 96, 0.8);
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+  h1.other{
+      margin-top: 0px;
+  }
+
+/* Page Fade-In Animation*/
+  h1#test, p, ul, h1.other {
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+/* Navigation Styles */
+nav.hnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+nav.hnav{
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(238, 238, 245, 0.822);
+    padding: 10px 0px;
+}
+nav.hnav ul{
+    display: table-row;
+    list-style-type: none;
+
+}
+nav.hnav ul li{
+    display: table-cell;
+    text-align: center;
+    padding-left: 10%; 
+    width: 25%;
+    
+}
+nav.hnav li:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+}
+/* List Styles */
+ul{
+    list-style-type: none;
+    line-height: 25px;
+    padding-left: 20px
+}
+ul.SkillsetList, ul.recommendationList, ul.resumeList{
+    background-color: rgba(255, 255, 255, 0.842);
+}
+ul.recSub{
+    padding-left: 30px;
+}
+ul.subList{
+    list-style-type: square;
+}
+/* Contact Form Styles */
+h1, div.contactTitle h1{
+    background-color: rgba(207, 163, 96, 0.8);
+    color: white;
+    font-size: 7em;
+    text-align: center;
+    width: 100%;
+    margin-top: 275px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+div.contactTitle{
+    text-align: center;
+}
+div.contactTitle h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+ form{
+     margin-top: 30px;
+     width: 100%;
+     align-content: center;
+ }
+ .formStyles{
+     background: transparent;
+     border: none;
+     border-bottom: 2px solid black;
+     color: white;
+     font-size: 20px;
+ }
+
