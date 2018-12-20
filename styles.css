@@ -17,10 +17,13 @@ html {
     padding: 10px;
     text-align: center;
   }
-  h1.other{
+  h1.other, h1#contactHeading{
       margin-top: 0px;
   }
-
+h1#contactHeading{
+    font-size: 5em;
+    padding-bottom: 10px;
+}
 /* Page Fade-In Animation*/
   h1#test, p, ul, h1.other {
     animation: fadein 1.5s;
